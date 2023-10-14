@@ -12,4 +12,4 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Collatz_problem_c_sharp
-build_property.ProjectDir = /Users/uchiyamakouhei/Developes/Collatz problem/Collatz problem-c_sharp/
+build_property.ProjectDir = /Users/uchiyamakouhei/Developes/Collatz problem_new/Collatz-problem/Collatz problem-c_sharp/
