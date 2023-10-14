@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Collatz problem-c_sharp/1.0.0": {
+        "runtime": {
+          "Collatz problem-c_sharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Collatz problem-c_sharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    },
+    {
+      "name": "C#: Collatz problem-c_sharp",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/Collatz problem-c_sharp/Collatz problem-c_sharp.csproj",
+      "launchConfigurationId": "TargetFramework=;Collatz problem-c_sharp"
+    } ,
+    {
+      "name": ".NET Core Launch (console)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "externalTerminal"
+    }
+  ]
+}
