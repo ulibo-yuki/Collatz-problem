@@ -2,25 +2,28 @@
   class Program{
     static void Main(string[] args){
       Console.WriteLine("値を入力してください。");
-      int n = int.Parse(Console.ReadLine());
-      if (n == null || n == 1){
+      var input = Console.ReadLine();
+      var n =0;
+      if (string.IsNullOrEmpty(input)){
         Console.WriteLine("正しい値を入力してください。");
-        n = int.Parse(Console.ReadLine());
+      }else{
+        n = int.Parse(input);
       }
 
       while (n != 1){
         int k = Even_Odd(n);
         if (k == 0){
+          //偶数の場合
           n /= 2;
         }if (k == 1){
+          //奇数の場合
           n *= 3;
-          n += 2;
+          n += 1;
         }
         Console.WriteLine(n);
-        
       }
-      Console.WriteLine("end.");
-      
+      Console.WriteLine("1に収束しました。");
+      Console.ReadLine();
     }
 
     private static int Even_Odd (int i){
