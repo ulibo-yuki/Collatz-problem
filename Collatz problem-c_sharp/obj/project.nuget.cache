@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3J7rDTlbULE4aw1Sa42QKO4QhtwyuzKOP7krv0vSQ/KUzMMbVq1pMCueN65zrB8xiy1YqH25aukzP9+7Vteu/g==",
+  "dgSpecHash": "asrdk6Cm+inrMPvQFPYhPHXphkw0j1WuOMyny7y7p6vskmS95y/298qZptOtbuW6SZba84aXiFyTh2TDRluV4A==",
   "success": true,
   "projectFilePath": "/Users/uchiyamakouhei/Developes/Collatz problem_new/Collatz-problem/Collatz problem-c_sharp/Collatz problem-c_sharp.csproj",
-  "expectedPackageFiles": [
-    "/Users/uchiyamakouhei/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/7.0.12/microsoft.netcore.app.runtime.osx-x64.7.0.12.nupkg.sha512",
-    "/Users/uchiyamakouhei/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/7.0.12/microsoft.aspnetcore.app.runtime.osx-x64.7.0.12.nupkg.sha512",
-    "/Users/uchiyamakouhei/.nuget/packages/microsoft.netcore.app.host.osx-x64/7.0.12/microsoft.netcore.app.host.osx-x64.7.0.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
