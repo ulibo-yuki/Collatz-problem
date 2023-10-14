@@ -3,7 +3,6 @@
 /Users/uchiyamakouhei/Developes/Collatz problem/Collatz problem-c_sharp/bin/Debug/net7.0/Collatz problem-c_sharp.runtimeconfig.json
 /Users/uchiyamakouhei/Developes/Collatz problem/Collatz problem-c_sharp/bin/Debug/net7.0/Collatz problem-c_sharp.dll
 /Users/uchiyamakouhei/Developes/Collatz problem/Collatz problem-c_sharp/bin/Debug/net7.0/Collatz problem-c_sharp.pdb
-/Users/uchiyamakouhei/Developes/Collatz problem/Collatz problem-c_sharp/obj/Debug/net7.0/Collatz problem-c_sharp.csproj.AssemblyReference.cache
 /Users/uchiyamakouhei/Developes/Collatz problem/Collatz problem-c_sharp/obj/Debug/net7.0/Collatz problem-c_sharp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/uchiyamakouhei/Developes/Collatz problem/Collatz problem-c_sharp/obj/Debug/net7.0/Collatz problem-c_sharp.AssemblyInfoInputs.cache
 /Users/uchiyamakouhei/Developes/Collatz problem/Collatz problem-c_sharp/obj/Debug/net7.0/Collatz problem-c_sharp.AssemblyInfo.cs
