@@ -6,6 +6,7 @@
       var n =0;
       if (string.IsNullOrEmpty(input)){
         Console.WriteLine("正しい値を入力してください。");
+        //再入力は後日。
       }else{
         n = int.Parse(input);
       }
