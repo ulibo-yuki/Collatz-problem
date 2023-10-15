@@ -1,0 +1,2 @@
+/Users/uchiyamakouhei/Developes/Collatz problem/Collatz problem-c_sharp/bin/Release/net7.0/win-x64/publish/Collatz problem-c_sharp.pdb
+/Users/uchiyamakouhei/Developes/Collatz problem/Collatz problem-c_sharp/bin/Release/net7.0/win-x64/publish/Collatz problem-c_sharp.exe
