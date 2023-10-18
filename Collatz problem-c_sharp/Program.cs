@@ -13,6 +13,11 @@
           rep_input = true;
           }else{
           n = int.Parse(input);
+          rep_input = false;
+          if (n == 0){
+            Console.WriteLine("0は整数ではありません。");
+            rep_input = true;
+          }
           }
         }while(rep_input == true);
 
@@ -30,8 +35,18 @@
         }
 
         Console.WriteLine("1に収束しました。");
-        Console.ReadLine();
-      
+        Console.WriteLine("もう一度計算しますか? y/n");
+        var rep = Console.ReadLine();
+        if (rep != null){
+          if (rep == "y"){
+            rep_program = true;
+          }else{
+            rep_program = false;
+            Environment.Exit(0);
+          }
+        }else{
+          Console.WriteLine("正しい値(y/n)を入力してください。");
+        }
       }while(rep_program == true);
     }
     private static int Even_Odd (int i){
