@@ -4,20 +4,24 @@
       bool rep_program = false;
       do{
         bool rep_input =false;
-        var n =0;
+        int n = 1;
         Console.WriteLine("値を入力してください。");
         do{
           var input = Console.ReadLine();
+
           if (string.IsNullOrEmpty(input)){
-          Console.WriteLine("正しい値を入力してください。");
-          rep_input = true;
-          }else{
-          n = int.Parse(input);
-          rep_input = false;
-          if (n == 0){
+            Console.WriteLine("正しい値を入力して下さい");
+            rep_input = true;
+          }else if(int.TryParse(input, out n)){
+            rep_input = false;
+
+            if (n == 0){
             Console.WriteLine("0は整数ではありません。");
             rep_input = true;
           }
+          }else{
+            Console.WriteLine("正しい値を入力して下さい。");
+            rep_input = true;
           }
         }while(rep_input == true);
 
