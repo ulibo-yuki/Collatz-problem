@@ -10,27 +10,26 @@
           var input = Console.ReadLine();
 
           if (string.IsNullOrEmpty(input)){
-            Console.WriteLine("正しい値を入力して下さい");
+            Console.WriteLine("正しい値を入力して下さい。1以上の整数。");
             rep_input = true;
           }else if(int.TryParse(input, out n)){
             rep_input = false;
 
-            if (n == 0){
-            Console.WriteLine("0は整数ではありません。");
+            if (n <= 0){
+            Console.WriteLine("正しい値を入力してください。1以上の整数。");
             rep_input = true;
           }
           }else{
-            Console.WriteLine("正しい値を入力して下さい。");
+            Console.WriteLine("正しい値を入力して下さい。1以上の整数。");
             rep_input = true;
           }
         }while(rep_input == true);
 
         while (n != 1){
-          int k = Even_Odd(n);
-          if (k == 0){
+          if (n % 2 == 0){
             //偶数の場合
             n /= 2;
-          }if (k == 1){
+          }else{
             //奇数の場合
             n *= 3;
             n += 1;
@@ -52,14 +51,6 @@
           Console.WriteLine("正しい値(y/n)を入力してください。");
         }
       }while(rep_program == true);
-    }
-    private static int Even_Odd (int i){
-      i %= 2;
-      if (i == 0){
-        return 0;
-      }else{
-        return 1;
-      }
     }
   }
 }
