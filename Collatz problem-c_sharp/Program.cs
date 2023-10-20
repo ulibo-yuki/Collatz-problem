@@ -4,7 +4,7 @@
       bool rep_program = false;
       do{
         bool rep_input =false;
-        int n = 1;
+        ulong n = 1;
         Console.WriteLine("値を入力してください。");
         do{
           var input = Console.ReadLine();
@@ -12,7 +12,7 @@
           if (string.IsNullOrEmpty(input)){
             Console.WriteLine("正しい値を入力して下さい。1以上の整数。");
             rep_input = true;
-          }else if(int.TryParse(input, out n)){
+          }else if(ulong.TryParse(input, out n)){
             rep_input = false;
 
             if (n <= 0){
